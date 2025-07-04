@@ -322,10 +322,9 @@ section{
          min-width: 100%;
         min-height: 100%;
         width: auto;
-        z-index: -1;
         transform: translate(-50%, -50%);
         object-fit: cover;
-        -webkit-object-fit: cover;          
+        -webkit-object-fit: cover;      
         background: url("/assets/Image/form.jpg") no-repeat center center;
         background-size: cover;
         @include laptop{
