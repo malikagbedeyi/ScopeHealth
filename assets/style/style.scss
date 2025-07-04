@@ -311,6 +311,7 @@ section{
         overflow: hidden;
         @include mobile{
             height: 300px;
+            overflow: auto;
         }
       }
       .video-background video {
@@ -324,6 +325,7 @@ section{
         z-index: -1;
         transform: translate(-50%, -50%);
         object-fit: cover;
+        -webkit-object-fit: cover;          
         background: url("/assets/Image/form.jpg") no-repeat center center;
         background-size: cover;
         @include laptop{
@@ -345,7 +347,7 @@ section{
 }
 section{
     .trust-pathner{
-        margin: 3% 0;
+        margin: 3% 0 3%;
         .container{
         .pathner-title{
             max-width: 500px;
