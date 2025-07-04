@@ -308,25 +308,18 @@ section{
         position: relative;
         height: 560px;
         width: 100%;
-        overflow: hidden;
         @include mobile{
             height: 300px;
             overflow: auto;
         }
       }
       .video-background video {
-        position: absolute;
-        top: 50%;
-        left:50%;
-        right: 0;
-         min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        transform: translate(-50%, -50%);
+        position: relative;
+        z-index: -1;
+         width: 100%;
+        height: 100%;
         object-fit: cover;
         -webkit-object-fit: cover;      
-        background: url("/assets/Image/form.jpg") no-repeat center center;
-        background-size: cover;
         @include laptop{
             height: 100%;
         }
