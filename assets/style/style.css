@@ -256,7 +256,6 @@ section .video-cover {
   height: 100%;
   margin: 0;
   padding: 0;
-  background: none;
 }
 section .video-cover .video-background {
   position: relative;
@@ -266,7 +265,6 @@ section .video-cover .video-background {
 @media screen and (max-width: 580px) {
   section .video-cover .video-background {
     height: 300px;
-    overflow: auto;
   }
 }
 section .video-cover .video-background video {
@@ -284,6 +282,7 @@ section .video-cover .video-background video {
 }
 @media screen and (max-width: 580px) {
   section .video-cover .video-background video {
+    position: absolute;
     z-index: 999;
   }
 }

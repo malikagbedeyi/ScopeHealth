@@ -304,14 +304,12 @@ section{
     height: 100%;
     margin: 0;
     padding: 0;
-    background: none;
     .video-background {
         position: relative;
         height: 560px;
         width: 100%;
         @include mobile{
             height: 300px;
-            overflow: auto;
         }
       }
       .video-background video {
@@ -325,6 +323,7 @@ section{
             height: 100%;
         }
         @include mobile{
+            position: absolute;
             z-index: 999;
         }
       }
