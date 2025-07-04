@@ -316,7 +316,6 @@ section{
       }
       .video-background video {
         position: relative;
-        z-index: 0;
          width: 100%;
         height: 100%;
         object-fit: cover;
@@ -325,7 +324,6 @@ section{
             height: 100%;
         }
         @include mobile{
-            z-index: 1;
         }
       }
       .shadow-cover{
@@ -336,7 +334,6 @@ section{
         height: 100%;
         background: #000;
         opacity: 0.1;
-        z-index: 1;
     
       }
 }

@@ -271,7 +271,6 @@ section .video-cover .video-background {
 }
 section .video-cover .video-background video {
   position: relative;
-  z-index: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -282,11 +281,6 @@ section .video-cover .video-background video {
     height: 100%;
   }
 }
-@media screen and (max-width: 580px) {
-  section .video-cover .video-background video {
-    z-index: 1;
-  }
-}
 section .video-cover .shadow-cover {
   top: 0;
   left: 0;
@@ -295,7 +289,6 @@ section .video-cover .shadow-cover {
   height: 100%;
   background: #000;
   opacity: 0.1;
-  z-index: 1;
 }
 
 section .trust-pathner {
