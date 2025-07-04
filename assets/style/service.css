@@ -253,6 +253,48 @@ body {
   background: #fff;
 }
 
+.video-cover {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+.video-cover .video-background {
+  position: relative;
+  height: 560px;
+  width: 100%;
+}
+@media screen and (max-width: 580px) {
+  .video-cover .video-background {
+    height: 300px;
+    overflow: auto;
+  }
+}
+.video-cover .video-background video {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  -webkit-object-fit: cover;
+  -webkit-playsinline: true;
+}
+@media screen and (max-width: 1388px) {
+  .video-cover .video-background video {
+    height: 100%;
+  }
+}
+.video-cover .shadow-cover {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.1;
+}
+
 section {
   position: relative;
   width: 100%;
