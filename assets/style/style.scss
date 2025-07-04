@@ -304,6 +304,7 @@ section{
     height: 100%;
     margin: 0;
     padding: 0;
+    background: #4B0082;
     .video-background {
         position: relative;
         height: 560px;
@@ -315,7 +316,7 @@ section{
       }
       .video-background video {
         position: relative;
-        z-index: -1;
+        z-index: 0;
          width: 100%;
         height: 100%;
         object-fit: cover;
@@ -327,18 +328,18 @@ section{
             z-index: 1;
         }
       }
+      .shadow-cover{
+        top: 0;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background: #000;
+        opacity: 0.1;
+        z-index: 1;
+    
+      }
 }
-.shadow-cover{
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: #000;
-    opacity: 0.1;
-    z-index: 1;
-
-  }
 }
 section{
     .trust-pathner{
