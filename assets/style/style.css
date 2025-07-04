@@ -282,6 +282,11 @@ section .video-cover .video-background video {
     height: 100%;
   }
 }
+@media screen and (max-width: 580px) {
+  section .video-cover .video-background video {
+    z-index: 999;
+  }
+}
 section .video-cover .shadow-cover {
   top: 0;
   left: 0;

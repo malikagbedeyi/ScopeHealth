@@ -325,6 +325,7 @@ section{
             height: 100%;
         }
         @include mobile{
+            z-index: 999;
         }
       }
       .shadow-cover{
