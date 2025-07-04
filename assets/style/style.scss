@@ -323,6 +323,9 @@ section{
         @include laptop{
             height: 100%;
         }
+        @include mobile{
+            z-index: 1;
+        }
       }
 }
 .shadow-cover{
